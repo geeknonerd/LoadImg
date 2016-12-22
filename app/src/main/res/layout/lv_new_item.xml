@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:padding="@dimen/new_item_lvg_padding"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_new_item"
+        android:layout_width="@dimen/new_item_iv_size"
+        android:layout_height="@dimen/new_item_iv_size" />
+
+    <TextView
+        android:id="@+id/tv_new_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/new_item_tv_textsize"
+        android:maxLines="2"/>
+</LinearLayout>
