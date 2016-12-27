@@ -6,9 +6,15 @@
     android:orientation="vertical"
     >
 
-    <ListView
-        android:id="@+id/lv_show_news"
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srl_show"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></ListView>
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/lv_show_news"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
 
 </LinearLayout>
